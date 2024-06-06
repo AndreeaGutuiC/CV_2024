@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+  h1{
+      text-align: center;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 2.3rem;
+      
+    }
+
+  h2, h3 {
+    color: #446688;
+  }
+  table{
+    margin-right : 30px;
+  }
+  #container1{
+  display : flex;
+  }
+#img_link{
+margin : 0;
+padding : 0;
+position: relative;
+left : 30%;
+} 
+#img_link > img{
+width : 230px;
+  height : 306px;
+  padding : 0px;
+  margin : 0;
+  box-shadow : 0 0 5px black;
+transition : box-shadow 0.4s ease-in-out;
+}
+#img_link > img:hover{
+box-shadow : 0 0 20px black;
+}
+td{
+margin : 0px;
+}
+.vbar{
+background-color: grey;
+transform: scaleX(0.1);
+}
+.text_center{
+text-align: center;
+}
+#lang_table{
+position: relative;
+left : 50%;
+transform : translate(-50%, 0);
+border: 1px solid black;
+border-collapse: collapse;
+}
+
+#lang_table tr{
+  border : 2px solid black;
+}
+#lang_table td{
+  padding : 12px;
+  margin : 0;
+}
+#lang_table thead{
+  background-color: #446688 ;
+  color : white;
+}
+#lang_table tr:hover{
+  background-color: hwb(209 57% 0%) ;
+  cursor : pointer;
+}
+  #container1 > table{
+  margin-left : 10px;
+  }
+
+  .column{
+  border-right: 1px;
+  padding: 10px;
+  }
+  i{
+  margin-right: 5px;
+  }
+
+.date{
+position: relative;
+}
+.left_border{
+  border-right : 2px solid black;
+}
+#git_link{
+  border-radius : 2px;
+}
+#git_link:hover{
+  background-color: #446688;
+  color : white !important;
+}
+#git_link:visited{
+  color : #446688;
+}
+.hidden{
+  opacity : 0;
+  transform : translate(-100%,0%);
+  transition : all 2.3s;
+}
+.show{
+  opacity: 1;
+  transform: translate(0%,0%);
+}
+
+#button{
+  background-color: #446688;
+  color: white;
+  border-radius: 4px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 42%;
+  
+}
+
+#button:hover {
+  background-color: #354477;
+  color:dimgrey;
+}
+
+.button:active {
+  background-color: #354477;
+  box-shadow: 0 5px #666;
+  transform: translateX(4px);
+}
+
+#location{
+  height: 30px;
+  width: 1px;
+  margin-left: 80%;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0; 
+  padding-left: 3%;
+}
+
+
+
+
+
+
+  

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6e79754fcf.js" crossorigin="anonymous"></script>
+    <title> MyCV</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    
+<header>
+    <h1 class="hidden">Curriculum Vitae</h1>
+ </header>
+ <article>
+    <section class = "date">
+    <h2 class="hidden">Date personale</h2>
+<div id="container1">
+  <table class="hidden">
+    <tbody>
+        <tr>
+            <td>Nume si prenume</td>
+            <td rowspan="6" class="vbar"></td>
+            <td>Gutui Andreea Carolina</td>
+        </tr>
+        <tr>
+            <td class = "col1"><i class="fa-solid fa-city"></i>Adresa</td>
+            <td>Romania, Sibiu</td>
+        </tr>
+
+        <tr>
+            <td><i class="fa-solid fa-cake-candles"></i>Data nasterii</td>
+            <td>25.11.2003</td>
+        </tr>
+
+        <tr>
+            <td ><i class="fa-solid fa-phone"></i>Telefon</td>
+            <td>0775358945</td>
+        </tr>
+
+        <tr>
+            <td><i class="fa-solid fa-envelope"></i>Email</td>
+            <td>gutuiandreea64@gmail.com</td>
+        </tr>
+            <td><i class="fa-solid fa-file-code"></i>GitHub</td>
+            <td><a href = "https://github.com/AndreeaGutuiC" id="git_link">https://github.com/AndreeaGutuiC</a></td>
+
+    </tbody>
+ </table>
+ <a class = "hidden" href="https://www.facebook.com/andreea.gutui.9?locale=ro_RO" target="_blank" id="img_link"><img src="CV/me1.jpg" alt="eu"></a>
+ </div>
+</section>
+<section class="studii">
+<h2 class="text_center hidden"><i class="fa-solid fa-graduation-cap"></i>Studii</h2>
+<hr>
+<ol class="hidden">
+    <li>Am absolvit Liceul Sanitar "Antim Ivireanu" din Rm. Valcea (2018-2022)</li>
+    <li>In prezent, sunt studenta in anul 2 la Facultatea de inginerie din cadrul universitatii "Lucian Blaga" din Sibiu, specializarea Calculatoare</li>
+</ol>
+</section>
+<section class="aptitudini">
+<h2 class="text_center hidden"><i class="fa-solid fa-briefcase"></i>Aptitudini</h2>
+<hr>
+<ul class="hidden">
+    <li>Proficienta în limbaje de programare cum ar fi Java, Python, C++, C#</li>
+    <li>Cunostinte hardware de baza</li>
+    <li>Abilități analitice și de rezolvare a problemelor </li>
+    <li>Abilități excelente de comunicare și colaborare în echipă</li>
+    <li>Cunoștințe de bază în tehnologii de dezvoltare web precum HTML, CSS și JavaScript</li>
+    <li>Cunostinte de POO (progranare orientata pe obiecte) si gestionarea bazelor de date (Microsoft SQL)</li>
+    <li>Abilități excelente de organizare</li>
+    <li>Flexibilitate la schimbari</li>
+    <li>Atentie la detalii</li>
+    <li>Creativitate</li>
+
+</ul>
+</section>
+
+<section class="languages">
+<h2 class="text_center hidden"><i class="fa-solid fa-comments"></i>Limbi straine</h2>
+<hr>
+<table id="lang_table" class="hidden">
+    <thead>
+        <th class="left_border">Limba</th>
+        <th>Citit</th>
+        <th>Vorbit</th>
+        <th>Scris</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="left_border">Engleza</td>
+            <td>B2</td>
+            <td>B2</td>
+            <td>B1</td>
+        </tr>
+        <tr>
+            <td class="left_border">Franceza</td>
+            <td>B1</td>
+            <td>A2</td>
+            <td>A2</td>
+        </tr>
+    </tbody>
+</table>
+</section>
+
+<section class="projects">
+    <h2 class="text_center hidden"><i class="fa-solid fa-code"></i>Proiecte</h2>
+    <hr>
+    <ol class="hidden">
+        <li>Am realizat proiectul "MyNotes app" cu scopul de a edita, formata şi salva conţinutul unor fişiere text, prin utilizarea conceptelor de POO. Proiectul reprezintă o versiune îmbunătaţită a aplicaţiei implicite  Notepad, oferită de Windows. 
+            Acest  editor de text permite, în plus, lucrul cu anumite limbaje de programare şi conversia textului în binar şi hexazecimal. Proiectul a fost realizat în mediul de programare Visual Studio 2022 Community, în C#, Winforms</li>
+        <li>Momentan lucrez la un proiect de implementarea unei biblioteci virtuale cu posibilitatea de a imprumuta carti, folosind limbajele de programare HTML, CSS, JavaScript si PHP.</li>
+    </ol>
+</section>
+
+
+<section class="hobby">
+<h2 class="text_center hidden"><i class="fa-solid fa-palette"></i>Hobby-uri</h2>
+<hr>
+<ul class="hidden">
+    <li><i class="fa-solid fa-paintbrush"></i>Arta 2D</li>
+    <li><i class="fa-solid fa-eye"></i>Design Grafic</li>
+    <li><i class="fa-solid fa-microchip"></i>Electronica</li>
+    <li><i class="fa-solid fa-book-open"></i>Citit</li>
+</ul>
+</section>
+<p id="location" class = hidden></p>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+
+<button id = "button" onclick="myFunc()">
+    <i class="fa-solid fa-moon"></i> Dark mode
+</button>
+</article>
+<script src="CV/cv.js" defer></script>
+</body>
+</html>
